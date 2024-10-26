@@ -29,8 +29,8 @@ class UIAdd
 class DatabaseHelper {
     public static Connection getConnection() throws SQLException {
         String url = "jdbc:mysql://localhost:3306/weather_records";
-        String user = "root";
-        String password = "#alam@290998";
+        String user = "";
+        String password = "";
         return DriverManager.getConnection(url, user, password);
     }
 }
