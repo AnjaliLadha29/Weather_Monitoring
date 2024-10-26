@@ -27,7 +27,7 @@ public class UI {
     }
     private static HttpURLConnection getHttpURLConnection (String s1)
     {
-        String key = "926a3292f4d816f3907b1739e940f717";
+        String key = "";
         String url = "https://api.openweathermap.org/data/2.5/weather?q=" + s1 + "&appid=" + key;
         URL u;
         try
